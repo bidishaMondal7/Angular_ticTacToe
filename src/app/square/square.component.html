@@ -1,0 +1,2 @@
+<button class="btn btn-circle" [ngStyle]="value==null ? {'background-color': 'white'} : value== 'MB' ? {'background': 'linear-gradient(to bottom, #003300 0%, #990000 100%)'} : {'background': 'linear-gradient(to bottom, #ff0000 0%, #ffcc00 100%)'}"
+  mat-raised-button [disabled]="win">{{ value }}</button>

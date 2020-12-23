@@ -1,0 +1,25 @@
+
+
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+  justify-content: center;
+}
+
+app-square {
+  border: 1px gray solid;
+  height: 200px;
+}
+.start{
+  margin-top: 2em;
+  text-align: center;
+}
+.top{
+  margin-top: 2em;
+  text-align: center;
+
+}
+.arena{
+  text-align: center;
+}
